@@ -1,0 +1,115 @@
+.banner{
+  height: 300px;
+  width: 100%;
+ 
+}   
+
+.btn{
+  color: rgb(236, 234, 234);
+  background-color: chocolate;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+}
+/* Set Noto Sans Bengali as the default font */
+        body {
+            font-family: 'Noto Sans Bengali', sans-serif;
+            background-color: #000; /* Deep black background */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        /* Custom Card Styles for specific gradients and shadows */
+        .card-base {
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Soft, deep shadow */
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card-base:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.7), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Card 1: YouTube Playlist (Red/Maroon Gradient) */
+        .card-youtube {
+            background: linear-gradient(135deg, #4d1515 0%, #2c0909 100%);
+            border: 1px dashed #7a2828;
+        }
+
+        /* Card 2: Facebook Group (Dark Blue Gradient) */
+        .card-fb-group {
+            background: linear-gradient(135deg, #102a43 0%, #0c1a2d 100%);
+            border: 1px dashed #2a5a7a;
+        }
+
+        /* Card 3: Instagram (Purple/Black Gradient) */
+        .card-instagram {
+            background: linear-gradient(135deg, #3c0c45 0%, #1c0520 100%);
+            border: 1px dashed #6d337a;
+        }
+
+        /* Card 4: Facebook Page (Deep Blue Gradient) */
+        .card-fb-page {
+            background: linear-gradient(135deg, #0f273d 0%, #07131e 100%);
+            border: 1px dashed #214e75;
+        }
+
+        /* Button Styling */
+        .btn-base {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            display: inline-block;
+            transition: background-color 0.2s, transform 0.1s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-base:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Specific Button Colors */
+        .btn-youtube {
+            background-color: #ff0000;
+            color: #fff;
+        }
+
+        .btn-facebook {
+            background-color: #1877f2;
+            color: #fff;
+        }
+
+        .btn-instagram {
+            background-color: #e4405f; /* Simple red-pink for button, matching the icon color */
+            color: #fff;
+        }
+
+        /* Icon Container: absolute positioning for the large icon */
+        .icon-container {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            opacity: 0.3; /* Slightly transparent */
+        }
+        
+        .icon-container svg {
+            width: 48px; /* Standard icon size */
+            height: 48px;
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+        }
+
+

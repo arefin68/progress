@@ -1,0 +1,16 @@
+.banner{
+  height: 300px;
+  width: 100%;
+ 
+}   
+
+.btn{
+  color: rgb(236, 234, 234);
+  background-color: chocolate;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+}
+
+

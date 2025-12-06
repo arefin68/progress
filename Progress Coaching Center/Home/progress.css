@@ -1,0 +1,33 @@
+
+.banner{
+  height: 300px;
+  width: 100%;
+  padding: 0,0,0,0;
+}   
+.banner2{
+  height: 600px;
+  width: 100%;
+  padding: 0,0,0,0;
+} 
+.banner3{
+  height: 1300px;
+  width: 100%;
+  padding: 0,0,0,0;
+} 
+.btn{
+  color: rgb(236, 234, 234);
+  background-color: chocolate;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+}
+.link-item{
+  font-size: 15px;
+}
+
+.quote{
+  text-align: center;
+  text-shadow: 0.75pt;
+  font-size: 50px;
+}
